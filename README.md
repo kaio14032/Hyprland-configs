@@ -1,2 +1,2 @@
-# dotfile
-Configurações pessoais para backup
+# Configs hypland
+Configurações pessoais do hyprland
