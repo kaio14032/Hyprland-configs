@@ -1,0 +1,42 @@
+@import url("file:///home/kaio/.cache/wal/wofi-colors.css");
+
+* {
+  font-family: JetBrainsMono;
+  color: @wfg;
+  background: transparent;
+}
+
+#window {
+  background: alpha(@wbg, 0.5);
+  margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+  border: 5px solid @waccent;
+}
+
+#input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+#outer-box {
+  padding: 20px;
+}
+
+#img {
+  margin-right: 6px;
+}
+
+#entry {
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#entry:selected {
+  background-color: alpha(@waccent, 0.3);
+}
+
+#text {
+  margin: 2px;
+}
